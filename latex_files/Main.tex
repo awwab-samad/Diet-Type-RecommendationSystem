@@ -1,0 +1,40 @@
+% Packages & Document Configurations
+\documentclass{IEEEtran}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{url}
+\usepackage{amsmath}
+
+\begin{document}
+
+% Title
+\title{Diet Type Prediction using Neural Networks}
+
+\author{
+    \IEEEauthorblockN{Awwab A. Samad}\\
+    \IEEEauthorblockA{Department of Computer Engineering\\
+    Information Technology University, Lahore, Pakistan\\
+    Email: bsce21002@itu.edu.pk}
+}
+
+\date{\today}
+
+\maketitle
+
+% Abstract
+\begin{abstract}
+    In today's era of personalized medicine, the importance of tailored dietary recommendations for individuals with specific health conditions cannot be overstated. This project aims to utilize machine learning algorithms, particularly Neural Networks (MLP), to provide personalized dietary recommendations based on individuals' medical data. The proposed scheme involves training an MLP model on a dataset containing various medical parameters, such as BMI, blood glucose levels, and cholesterol levels, to predict a sequence of binary values representing dietary requirements. This document presents a detailed overview of the project, including the dataset, methodology, network architecture, implementation setup, and performance evaluation.
+\end{abstract}
+
+\input{Sections/01-Introduction}
+\input{Sections/02-Proposed Scheme}
+\input{Sections/03-Implementation}
+\input{Sections/04-Results}
+\input{Sections/05-Conclusion}
+\input{Sections/06-References}
+
+\section*{Acknowledgements}
+This project received support by the instructor of the Machine Learning course, Professor Dr. Tahira Mahboob, PhD and her Teaching Assistant, Ma'am Malaika Waheed at Information Technology University, Lahore, Pakistan.
+It also received additional support from a registered dietition, Hodaa Samad.
+
+\end{document}
